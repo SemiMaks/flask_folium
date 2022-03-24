@@ -38,9 +38,6 @@ def index():
     ).add_to(folium_map)
 
 
-
-
-
     return folium_map._repr_html_()
 
 
